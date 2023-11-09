@@ -1,0 +1,46 @@
+body{
+    text-align:center;
+}
+.btn{
+    height:200px;
+    width:200px;
+    border-radius:20%;
+    /* height:6rem; */
+    /* width:6rem; */
+    /* border:0.4rem solid black; */
+    border:10px solid black;
+    margin:1rem;
+}
+.btn-container{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+@media (max-width:650px){
+    .btn{
+        height:6rem;
+        width:6rem;
+        border:0.4rem solid black;
+    }
+}
+.yellow{
+    background-color:#f99b45;
+}
+.red{
+    background-color:#d95980;
+}
+.purple{
+    background-color:gold;
+}
+.green{
+    background-color:#63aac0;
+}
+
+/* jb btn flash krni */
+.flash{
+    background-color:white;
+}
+
+.userFlash{
+    background-color:green;
+}
