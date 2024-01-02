@@ -13,6 +13,7 @@ body{
     /* border:0.4rem solid lack; */
     border:7px solid rgb(0, 0, 50);
     margin:1rem;
+    
 }
 .heading{
     color:crimson;
@@ -39,21 +40,25 @@ body{
     }
 }
 .yellow{
-    background-color:#f99b45;
+    background-color:yellow;
 
-    box-shadow:1rem 1rem 1rem #f99c457e;
+    box-shadow:1rem 1rem 1rem rgb(163, 163, 1);
+    border-bottom-left-radius:50%;
 }
 .red{
-    background-color:#d95980;
-    box-shadow:1rem 1rem 1rem #d9597f7b;
+    background-color:limegreen;
+    box-shadow:1rem 1rem 1rem green;
+    border-top-left-radius:50%;
 }
 .purple{
-    background-color:gold;
-    box-shadow:1rem 1rem 1rem rgba(255, 217, 0, 0.503);
+    background-color:lightseagreen;
+    box-shadow:1rem 1rem 1rem rgb(16, 90, 86);
+    border-bottom-right-radius:50%;
 }
 .green{
-    background-color:#63aac0;
-    box-shadow:1rem 1rem 1rem #63aac07b;
+    background-color:red;
+    box-shadow:1rem 1rem 1rem rgb(144, 0, 0);
+    border-top-right-radius:50%;
 }
 
 /* jb btn flash krni */
